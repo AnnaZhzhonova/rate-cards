@@ -1,0 +1,58 @@
+.card {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px 50px;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+}
+    .header{
+        margin: 0;
+        color: white;
+
+        h2{
+            margin-top: 10px;
+        }
+    }
+
+    .price{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        color: white;
+
+        p{
+            font-size: 35px;
+        }
+    }
+
+    .speed {
+        margin: 0;
+        background-color: #dbd8d8ba;
+    }
+    .priceBold{
+        font-size: 50px;
+        text-align: center;
+    }
+    .info{
+        margin: 0;
+        background-color: #c7c4c4;
+    }
+
+
+.header--blue {background-color: rgba(6, 81, 143, 0.764);}
+.price--blue{background-color: rgb(72, 164, 245);}
+
+.header--green {background-color: rgb(3, 155, 39);}
+.price--green{background-color: rgb(50, 210, 157);}
+
+.header--red {background-color: rgb(249, 55, 55);}
+.price--red{background-color: rgb(242, 143, 143);}
+
+.header--black {background-color: rgb(26, 29, 29);}
+.price--black{background-color: rgb(170, 171, 171);}
+
+.card--top {
+    width: 270px;
+    height: 430px;
+}
