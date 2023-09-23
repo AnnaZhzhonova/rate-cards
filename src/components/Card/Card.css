@@ -56,3 +56,9 @@
     width: 270px;
     height: 430px;
 }
+
+.btn{
+    font-size: 18px;
+    border: 1px solid green;
+    background-color: #13ea623c;
+}
